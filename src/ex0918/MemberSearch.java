@@ -14,8 +14,8 @@ public class MemberSearch {
 
             if(target.length() >= 4)
                 longNameCount += 1;
-            if()
+
 
 
     }
-}
+}}
