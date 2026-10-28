@@ -12,10 +12,8 @@ public class Yeonse {
         System.out.println("일반 이수 학점 : ");
         int c = scanner.nextInt();
 
-        int flag = 0;
-        if (a )
         int total = a + b + c;
-        if (total >= 140 && a > 70 && b >30 && c > 30  ) {
+        if (total >= 140 && a >= 70 && b >= 30 && c >= 30) {
             System.out.println("졸업 가능");
         }
         else
