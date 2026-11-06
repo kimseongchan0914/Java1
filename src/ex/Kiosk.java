@@ -1,20 +1,17 @@
 package ex;
 
-import performance.Cart;
-import performance.MemberGrade;
-import performance.Menu;
 
 import java.util.Scanner;
 
 public class Kiosk {
     public static void main(String[] agrs) {
 
-        performance.Menu m1 = new performance.Menu("아메리카노", 3500);
-        performance.Menu m2 = new performance.Menu("카페라떼", 4000);
-        performance.Menu m3 = new Menu("블루베리스무디", 4500);
+        Menu m1 = new Menu("아메리카노", 3500);
+        Menu m2 = new Menu("카페라떼", 4000);
+        Menu m3 = new Menu("블루베리스무디", 4500);
 
         // 장바구니 생성
-        performance.Cart cart = new Cart();
+        Cart cart = new Cart();
         cart.addMenu(m1);
         cart.addMenu(m2);
         cart.addMenu(m3);
